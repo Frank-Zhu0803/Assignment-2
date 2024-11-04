@@ -1,0 +1,19 @@
+{
+  "name": "country-backend",
+  "version": "1.0.0",
+  "description": "Backend server for managing countries and their flags",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js",
+    "dev": "nodemon App.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
